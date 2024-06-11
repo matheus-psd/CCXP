@@ -113,3 +113,81 @@ header {
 .buyTicket button:hover {
     color: var(--yellow-color-font);
 }
+
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    header {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .presentation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentationLeft, .presentationRight {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .presentationLeft h1, .presentationRight h1 {
+        font-size: 30px;
+    }
+
+    .presentationLeft h3, .presentationRight h3 {
+        font-size: 20px;
+    }
+
+    .presentationLeft span {
+        font-size: 18px;
+    }
+
+    #timer {
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    
+    #timer div {
+        margin: 5px;
+    }
+
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .schedule {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .schedule img {
+        max-width: 100%;
+        margin: 5px;
+      }
+
+    .schedule, .buyTicket {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .buyTicket button {
+        width: 90%;
+        font-size: 24px;
+        height: 60px;
+    }
+
+    #titleNav {
+        font-size: 20px;
+    }
+}
