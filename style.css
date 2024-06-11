@@ -1,0 +1,111 @@
+* {
+  font-family: Verdana;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --header-background: #ffd900;
+  --purple-background-and-font: #514988;
+  --pink-color-font: #e33881;
+  --yellow-color-font: #f3c61f;
+}
+
+h1,
+h3 {
+  text-transform: uppercase;
+}
+
+header {
+  background-color: var(--header-background);
+  padding: 27px 0 28px 58px;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.presentationLeft {
+  padding: 31px 60px 92px 64px;
+  width: 46%;
+  background: var(--purple-background-and-font);
+  color: white;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 35.24px;
+  text-align: center;
+}
+
+.presentationLeft h1 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 85.07px;
+  color: var(--yellow-color-font);
+}
+
+.presentationLeft h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.46px;
+}
+
+#timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#video {
+    pointer-events: none;
+}
+
+.presentationRight {
+  padding: 1rem;
+  width: 54%;
+  text-align: center;
+}
+
+.presentationRight h1 {
+  color: var(--purple-background-and-font);
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 85.07px;
+}
+
+.presentationRight h3 {
+  font-family: Verdana;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.46px;
+  color: var(--pink-color-font);
+}
+
+.nav {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+#titleNav {
+  color: var(--yellow-color-font);
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 32.81px;
+}
+
+.buyTicket button {
+  background-color: var(--purple-background-and-font);
+  color: white;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 51.04px;
+  width: 596px;
+  height: 148px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 0;
+}
