@@ -9,7 +9,7 @@
 </ul>
 
   <h1 id="objetivo">Objetivo</h1>
-  <p> Criar uma Landing Page com contador para a data de início do evento.
+  <p> Criar uma Landing Page com contador para a data de início do evento. <br>
     *O projeto inicial era para a CCXP de 2022, portanto foram feitas algumas alterações para que o contador fizesse sentido.
   </p>
 
